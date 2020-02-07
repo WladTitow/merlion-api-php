@@ -2,7 +2,9 @@
 
 namespace Merlion\Type;
 
-class GetCommandResultResponse
+use Phpro\SoapClient\Type\ResultInterface;
+
+class GetCommandResultResponse implements ResultInterface
 {
 
     /**

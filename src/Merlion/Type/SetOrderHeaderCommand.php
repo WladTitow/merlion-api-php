@@ -2,7 +2,8 @@
 
 namespace Merlion\Type;
 
-class SetOrderHeaderCommand
+use Phpro\SoapClient\Type\RequestInterface;
+class SetOrderHeaderCommand implements RequestInterface
 {
 
     /**
